@@ -1,0 +1,752 @@
+@charset "utf-8";
+
+.btn-whatsapp{position: fixed;
+              right: 0;
+              bottom: 0;
+              width: 50px;
+              height: 50px;
+              z-index: 9999;}
+
+@media (max-width: 576px){body{background-color:#fff;}
+/*//Header e seus componentes//*/
+header{background-color: #deb887;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #10B000;
+           }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;
+                 border: solid 2px #000;
+                 color: #000;}
+
+
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+/*/// CAROUSEL-PUBLICIDADE-/////////////*/
+
+main{margin-top: 15px;
+     margin: auto;}
+
+ 
+
+ .slideshow-container{width: 90%;
+                     
+                      margin: auto;}
+
+ .mySlides {display: none;}
+
+  img {vertical-align: middle;
+       width: 100%;
+       border-radius: 5px;}
+
+/*//////SESSAO-VENDAS/////////*/
+
+
+
+
+.carousel{width: 100%;
+          overflow-x: auto;
+          overflow-y: hidden;
+
+
+    .carousel-items{display:flex;
+                   flex-direction: row;
+                   }}
+
+
+
+
+.carousel-item{width: 100%;
+            max-width: 300px;
+            margin:15px;
+            background-color: #fff;
+           padding: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+              background-color: #BAC3CF;}
+
+
+.carouselitem  img { width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                   
+                  }
+
+  
+.h3-carousel-item {color: #0e131a;
+                     
+}
+
+.carousel-item p {font-size: 14px;
+                line-height: 1.4;
+                color: #000;
+                
+}
+
+button {
+  background-color: #10B000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: #deb887;
+   color: #000;
+
+}
+
+.prod-vendas{
+ 
+           >div{padding: 20px;
+               display: flex;
+               flex-direction: column;
+               }
+ 
+  .carousel{height:auto;}
+            
+     .carousel-item{min-width: 320px;
+                     max-width: 320px;
+                    
+      
+                & img{width: 100%;}}}
+
+  .h3-prod{color: #000;
+            }
+
+
+
+  /*/////FOOTER//////////////*/
+  @media (max-width: 576px) {
+  footer {background-color: #777272;
+    padding: 10px;
+    color: #fff;
+      margin: auto;}
+
+
+    a{color:#f3f3f3
+     }
+   
+ 
+
+   a:hover{color:#f3f3f3;
+           transform: translateY(2px);}
+
+  .gerais {display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+
+    /*.gerais{border-bottom: solid 3px #000;}
+    .formas-pgto{border-bottom: solid 3px #000;}
+    .contato{border-bottom: solid 3px #000;}
+     .site-seguro{border-bottom: solid 3px #000;}*/
+    
+  
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width:45px;
+    height: 45px;
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+
+
+  #footer-autor{color: #BAC3CF;
+                background-color: #000;
+                border-radius: 15px;
+               }
+
+    #h4-footer, #p-footer{text-align: center;}
+}
+
+}
+
+
+/****************************************************************************/
+
+@media (min-width: 577px) and (max-width: 768px){
+
+  /*//Header e seus componentes//*/
+
+    body{background-color:#fff;}
+   header{background-color: #deb887;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color:  #10B000;
+           padding-top: 8px;
+           padding-bottom: 8px; }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;}
+
+#btn-entre{padding-left: 14px;
+           padding-right: 14px;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;
+                   }
+
+
+.nome-loja{
+
+  >h1{text-align: center;
+       font-size: 86%;}}
+
+/*//-CAROUSEL-PUBLICIDADE-/////*/
+*{box-sizing: border-box;}
+
+ .slideshow-container{width: 95%;
+                     
+                      margin: auto;}
+
+ .mySlides {display: none;}
+
+  img {vertical-align: middle;
+       width: 100%;
+        border-radius: 5px;}
+
+
+/*//////SESSAO-VENDAS/////////*/
+.carousel{width: 100%;
+          overflow-x: auto;
+          overflow-y: hidden;
+
+
+    .carousel-items{display:flex;
+                   flex-direction: row;
+                   }}
+
+
+
+
+.carousel-item{width: 100%;
+            max-width: 300px;
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color:#BAC3CF;
+            }
+
+
+.carouselitem  img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.h3-prod{color: #000;
+            }
+
+.h3-carousel-item {
+  color: #0e131a;
+}
+
+.carousel-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+}
+
+button {
+  background-color:#10B000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: #BF9663;
+  color: #000;
+
+}
+
+.prod-vendas{
+ 
+           >div{padding: 20px;
+               display: flex;
+               flex-direction: column;}
+ 
+  .carousel{height: auto;}
+            
+     .carousel-item{min-width: 320px;
+                     max-width: 320px;
+
+      
+                & img{width: 100%;
+                        border-radius: 5px;}}}
+
+    
+  
+ /*//////////FOOTER//////////////*/
+    footer{background-color:#777272;
+          padding: 25px;}
+
+   .gerais {display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0e131a;}
+   
+    
+   
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 45px;
+   height:45px ;
+    
+  
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;
+     color:#000;
+     }
+
+   a:hover{transform:translateY(2px);}
+   
+    .gerais,.formas-pgto,.contato,.site-seguro{background-color: #777272;
+            height: 50px;
+            margin-bottom: 5px;
+            background-color:#777272;}
+
+    
+#footer-autor{color: #BAC3CF;
+                background-color: #000;
+               margin-top: 15px;
+               border-radius: 15px;}
+
+    #h4-footer, #p-footer{text-align: center;}
+}
+
+
+    
+  
+
+
+/*******************************************************************/
+@media (min-width: 769px) and (max-width: 1024px){
+
+body{background-color:#fff;}
+
+ /*//Header e seus componentes//*/
+   header{background-color: #deb887;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #10B000;
+           padding-top: 8px;
+           padding-bottom: 8px; }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;
+                 border: solid 2px #000;
+                 color: #000;}
+
+#btn-entre{padding-left: 14px;
+           padding-right: 14px;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+
+.nome-loja{
+
+  >h1{text-align: center;}}
+
+/*////-CAROUSEL-PUBLICIDADE-//////*/
+*{box-sizing: border-box;}
+
+ .slideshow-container{width: 90%;
+                     
+                      margin: auto;}
+
+ .mySlides {display: none;}
+
+  img {vertical-align: middle;
+       width: 100%;}
+
+/*//////SESSAO-VENDAS/////////*/
+.prod-vendas{width: 90%;
+              margin: auto;}
+
+
+
+.carousel{width: 100%;
+          overflow-x: auto;
+          overflow-y: hidden;
+
+
+    .carousel-items{display:flex;
+                   flex-direction: row;}}
+
+
+
+
+.carousel-item{width: 100%;
+            max-width: 300px;
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+             background-color:#BAC3CF;
+            }
+
+
+.carouselitem  img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.h3-prod{color: #000;}
+
+.h3-carousel-item {color: #0e131a;
+                    background-color: #BAC3CF}
+
+.carousel-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+}
+
+button {
+  background-color: #10B000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+}
+
+button:hover {color: #000;
+  background-color: #deb887;;
+
+}
+
+.prod-vendas{
+ 
+           >div{padding: 20px;
+               display: flex;
+               flex-direction: column;}
+ 
+  .carousel{height: auto;}
+            
+     .carousel-item{min-width: 320px;
+                     max-width: 320px;
+                      background-color: #BAC3CF;
+      
+                & img{width: 100%;
+                        border-radius: 5px;}}}
+
+/*///////FOOTER////////*/
+footer{background-color:  #777272;
+          padding: 25px;}
+
+a{color:#f3f3f3;}
+
+   .gerais {display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     background-color:#989ba0;
+  }
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 50px;
+    height: 50px;
+    
+  
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+   
+    .gerais,.formas-pgto,.contato,
+     .site-seguro{background-color: #777272;
+            height: 50px;
+            margin-bottom: 5px;}
+
+   
+    
+   #footer-autor{color: #f3f3f3;
+                background-color: #000;
+                margin-top: 20px;
+                border-radius: 15px;}
+
+    #h4-footer, #p-footer{text-align: center;}
+
+   
+}
+
+/********************************************************************/
+
+@media (min-width: 1025px){
+
+   body{background-color:#fff;}
+
+ /*//Header e seus componentes//*/
+   header{background-color: #deb887;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin-bottom: 15px;}
+
+.topo-logos{width: 100%;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between;}
+
+.btn-logar{background-color: #80A62E;
+           padding-top: 8px;
+           padding-bottom: 8px; }
+
+.btn-logar:hover{cursor: pointer;
+                 background-color: #BF9663;}
+
+#btn-entre{padding-left: 14px;
+           padding-right: 14px;}
+
+.carrinho-compras{display: flex;
+                  justify-content: flex-end;}
+
+
+.nome-loja{
+
+  >h1{text-align: center;}}
+
+
+/*////-CAROUSEL-PUBLICIDADE-//////*/
+*{box-sizing: border-box;}
+
+ .slideshow-container{width: 90%;
+                     
+                      margin: auto;}
+
+ .mySlides {display: none;}
+
+  img {vertical-align: middle;
+       width: 100%;
+         border-radius: 5px;}
+
+/*//////SESSAO-VENDAS/////////*/
+
+.prod-vendas{width: 90%;
+             margin: auto;}
+
+
+
+.carousel{width: 100%;
+         
+          overflow-x: auto;
+          overflow-y: hidden;
+
+
+    .carousel-items{display:flex;
+                   flex-direction: row;}}
+
+
+
+
+.carousel-item{width: 100%;
+            max-width: 300px;
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+             background-color:#BAC3CF;
+            border: solid 1px #000;
+            
+            }
+
+
+.carouselitem  img {width: 100%;
+                    height: auto;
+                    border-radius: 8px;
+                }
+
+img{ border: solid 2px #000; }
+  
+.h3-prod{color: #000;}
+
+.h3-carousel-item {
+  color: #0e131a;
+}
+
+.carousel-item p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+}
+
+button {
+  background-color: #10B000;
+  color: #fff;
+  padding: 10px 30px;
+  
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+  border: solid 1px #000;
+}
+
+button:hover {
+  background-color: #BF9663;
+   color: #000;
+
+}
+
+.prod-vendas{
+ 
+           >div{padding: 20px;
+               display: flex;
+               flex-direction: column;}
+ 
+  .carousel{height: auto;}
+            
+     .carousel-item{min-width: 320px;
+                     max-width: 320px;
+
+      
+                & img{width: 100%;}}}
+
+/*////FOOTER///////*/
+footer{background-color:  #777272;
+          padding: 25px;}
+
+a{color:#f3f3f3;
+  }
+
+ a:hover{ transform: scaleY(2px);}
+
+   .gerais {display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+    
+  }
+
+  .formas-pgto,
+  .contato,
+  .site-seguro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+     
+
+  .formas-pgto figure img,
+  .contato figure img,
+  .site-seguro figure img {
+    width: 55px;
+    height: 55px;
+    
+  
+  }
+
+  article {
+    text-align: left;
+  }
+   a{text-decoration: none;}
+   
+    .gerais,.formas-pgto,.contato,
+     .site-seguro{background-color: #777272;}
+  
+           
+   
+    
+   #footer-autor{color: #f3f3f3;
+                background-color: #000;
+                border-radius:15px;}
+
+    #h4-footer, #p-footer{text-align: center;}
+
+ 
+
+}
+
+
+/**********************************************************************/
