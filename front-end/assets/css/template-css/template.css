@@ -15,13 +15,28 @@ header{background-color: #deb887;
        flex-direction: column;
        margin-bottom: 15px;}
 
-.topo-logos{width: 100%;
+.topo-logo{width: 100%;
             display: flex;
             flex-direction: row;
              justify-content: space-between;}
+             
+.topo-logo img{border-radius: 50%;
+                width: 80px;
+                height: 80px;}
+ 
 
 .btn-logar{background-color: #10B000;
-           }
+            width: 85px;
+            height:25px;
+            font-size: 0.85em; 
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-weight: bolder;
+           
+             }
 
 .btn-logar:hover{cursor: pointer;
                  background-color: #BF9663;
@@ -29,18 +44,29 @@ header{background-color: #deb887;
                  color: #000;}
 
 
+.site-nome{text-align: center;
+            font-variant: small-caps;}
 
-.carrinho-compras{display: flex;
-                  justify-content: flex-end;}
+
+.carrinho-compras{display:flex;
+                  justify-content: flex-end;
+                  align-self: flex-end;
+                  width:40px;
+                  height: 40px;
+                  cursor: pointer;}
+
+               
+                
 
 /*/// CAROUSEL-PUBLICIDADE-/////////////*/
 
 main{margin-top: 15px;
-     margin: auto;}
+     margin: auto;
+    }
 
  
 
- .slideshow-container{width: 90%;
+ .slideshow-container{width:80%;
                      
                       margin: auto;}
 
@@ -134,7 +160,7 @@ button:hover {
 
   /*/////FOOTER//////////////*/
   @media (max-width: 576px) {
-  footer {background-color: #777272;
+  footer {background-color: #deb887;
     padding: 10px;
     color: #fff;
       margin: auto;}
@@ -148,6 +174,10 @@ button:hover {
    a:hover{color:#f3f3f3;
            transform: translateY(2px);}
 
+   .h3-footer{text-align: center;
+               color: #000;
+              margin-bottom: 15px;}
+   
   .gerais {display: flex;
     flex-direction: column;
    align-items: center;
@@ -158,35 +188,43 @@ button:hover {
     .contato{border-bottom: solid 3px #000;}
      .site-seguro{border-bottom: solid 3px #000;}*/
     
-  
+   
 
-  .formas-pgto,
+  
   .contato,
   .site-seguro {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;}
     
-  }
+   .formas-pgto{
+
+       >div{display: flex;
+            justify-content: space-around;}
+              
+               }
 
   .formas-pgto figure img,
   .contato figure img,
   .site-seguro figure img {
-    width:45px;
-    height: 45px;
+    width:30px;
+    height: 30px;
   }
 
   article {
     text-align: left;
   }
-   a{text-decoration: none;}
+   a{text-decoration: none;
+     color: #000;}
 
 
   #footer-autor{color: #BAC3CF;
                 background-color: #000;
                 border-radius: 15px;
                }
+
+   
 
     #h4-footer, #p-footer{text-align: center;}
 }
@@ -202,36 +240,49 @@ button:hover {
 
     body{background-color:#fff;}
    header{background-color: #deb887;
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-                margin-bottom: 15px;}
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-bottom: 15px;}
 
-.topo-logos{width: 100%;
+.topo-logo{width: 100%;
             display: flex;
             flex-direction: row;
              justify-content: space-between;}
+             
+.topo-logo img{border-radius: 50%;
+                width: 80px;
+                height: 80px;}
+ 
 
-.btn-logar{background-color:  #10B000;
-           padding-top: 8px;
-           padding-bottom: 8px; }
+.btn-logar{background-color: #10B000;
+            width: 85px;
+            height:25px;
+            font-size: 0.85em; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-weight: bolder;
+           
+             }
 
 .btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;}
+                 background-color: #BF9663;
+                 border: solid 2px #000;
+                 color: #000;}
 
-#btn-entre{padding-left: 14px;
-           padding-right: 14px;}
 
-.carrinho-compras{display: flex;
+.site-nome{text-align: center;
+            font-variant: small-caps;}
+
+
+.carrinho-compras{display:flex;
                   justify-content: flex-end;
-                   }
-
-
-.nome-loja{
-
-  >h1{text-align: center;
-       font-size: 86%;}}
-
+                  align-self: flex-end;
+                  width:40px;
+                  height: 40px;
+                  cursor: pointer;}
 /*//-CAROUSEL-PUBLICIDADE-/////*/
 *{box-sizing: border-box;}
 
@@ -325,7 +376,7 @@ button:hover {
     
   
  /*//////////FOOTER//////////////*/
-    footer{background-color:#777272;
+    footer{background-color:#deb887;
           padding: 25px;}
 
    .gerais {display: flex;
@@ -334,40 +385,34 @@ button:hover {
     
   }
 
-  .formas-pgto,
-  .contato,
-  .site-seguro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #0e131a;}
-   
-    
-   
+  .formas-pgto{
+
+       >div{display: flex;
+            justify-content: space-around;}
+              
+               }
 
   .formas-pgto figure img,
   .contato figure img,
   .site-seguro figure img {
-    width: 45px;
-   height:45px ;
-    
-  
+    width:35px;
+    height: 35px;
   }
 
   article {
     text-align: left;
   }
    a{text-decoration: none;
-     color:#000;
-     }
+     color: #000;
+    }
+   a:hover{ transform: translateY(2px);}
 
-   a:hover{transform:translateY(2px);}
-   
-    .gerais,.formas-pgto,.contato,.site-seguro{background-color: #777272;
-            height: 50px;
-            margin-bottom: 5px;
-            background-color:#777272;}
+  .h3-footer{text-align: center;
+            color: #000;}
 
+ .fig-site-blindado{display: flex;
+                   justify-content: center;
+                   align-self: center;}
     
 #footer-autor{color: #BAC3CF;
                 background-color: #000;
@@ -388,36 +433,50 @@ button:hover {
 body{background-color:#fff;}
 
  /*//Header e seus componentes//*/
-   header{background-color: #deb887;
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-                margin-bottom: 15px;}
+  header{background-color: #deb887;
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-bottom: 15px;}
 
-.topo-logos{width: 100%;
+.topo-logo{width: 100%;
             display: flex;
             flex-direction: row;
              justify-content: space-between;}
+             
+.topo-logo img{border-radius: 50%;
+                width: 80px;
+                height: 80px;}
+ 
 
 .btn-logar{background-color: #10B000;
-           padding-top: 8px;
-           padding-bottom: 8px; }
+            width: 85px;
+            height:25px;
+            font-size: 0.85em; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-weight: bolder;
+           
+             }
 
 .btn-logar:hover{cursor: pointer;
                  background-color: #BF9663;
                  border: solid 2px #000;
                  color: #000;}
 
-#btn-entre{padding-left: 14px;
-           padding-right: 14px;}
 
-.carrinho-compras{display: flex;
-                  justify-content: flex-end;}
+.site-nome{text-align: center;
+            font-variant: small-caps;}
 
 
-.nome-loja{
-
-  >h1{text-align: center;}}
+.carrinho-compras{display:flex;
+                  justify-content: flex-end;
+                  align-self: flex-end;
+                  width:40px;
+                  height: 40px;
+                  cursor: pointer;}
 
 /*////-CAROUSEL-PUBLICIDADE-//////*/
 *{box-sizing: border-box;}
@@ -510,46 +569,59 @@ button:hover {color: #000;
                         border-radius: 5px;}}}
 
 /*///////FOOTER////////*/
-footer{background-color:  #777272;
-          padding: 25px;}
+footer{background-color:  #deb887;
+          padding: 25px;
+          height: auto;}
 
-a{color:#f3f3f3;}
+a{color:#000;}
 
    .gerais {display: flex;
     flex-direction: row;
    justify-content: space-around;
+    position: relative;
     
   }
 
-  .formas-pgto,
-  .contato,
-  .site-seguro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-     background-color:#989ba0;
-  }
+    .h3-footer{text-align: center;
+               position: absolute;
+               padding-bottom: 260px;
+              margin-left: 250px;
+               color:#000}
 
-  .formas-pgto figure img,
-  .contato figure img,
-  .site-seguro figure img {
-    width: 50px;
-    height: 50px;
-    
+     .formas-pgto{display: flex;
+                   flex-direction: row;
+                    height: auto;
+
+
+     >div{display: flex;
+          justify-content: space-around;
+          margin-left: 80px;
+          margin-top: 50px;}
+              
+                  
+                 
+                   }
+
+    .fig-pgto{width: 40px;
+              height: 40px;}
+
+
+   
+      
+       .site-seguro{display: flex;
+                   flex-direction: row;
+                    justify-content: center;
+                    height: auto;
+                     position: relative;}
   
-  }
-
-  article {
-    text-align: left;
-  }
-   a{text-decoration: none;}
-   
-    .gerais,.formas-pgto,.contato,
-     .site-seguro{background-color: #777272;
-            height: 50px;
-            margin-bottom: 5px;}
-
-   
+       .fig-site-blindado{width: 40px;
+                           height: 40px;
+                            margin-top: 50px;
+                           }
+  
+         #h3-site-seguro{position: absolute;
+                         margin-left: -60px;
+                         color: #000;}
     
    #footer-autor{color: #f3f3f3;
                 background-color: #000;
@@ -569,40 +641,56 @@ a{color:#f3f3f3;}
 
  /*//Header e seus componentes//*/
    header{background-color: #deb887;
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-                margin-bottom: 15px;}
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-bottom: 15px;}
 
-.topo-logos{width: 100%;
+.topo-logo{width: 100%;
             display: flex;
             flex-direction: row;
              justify-content: space-between;}
+             
+.topo-logo img{border-radius: 50%;
+                width: 80px;
+                height: 80px;}
+ 
 
-.btn-logar{background-color: #80A62E;
-           padding-top: 8px;
-           padding-bottom: 8px; }
+.btn-logar{background-color: #10B000;
+            width: 85px;
+            height:25px;
+            font-size: 0.85em; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-weight: bolder;
+           
+             }
 
 .btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;}
-
-#btn-entre{padding-left: 14px;
-           padding-right: 14px;}
-
-.carrinho-compras{display: flex;
-                  justify-content: flex-end;}
+                 background-color: #BF9663;
+                 border: solid 2px #000;
+                 color: #000;}
 
 
-.nome-loja{
+.site-nome{text-align: center;
+            font-variant: small-caps;
+            font-size: 4rem;}
 
-  >h1{text-align: center;}}
 
+.carrinho-compras{display:flex;
+                  justify-content: flex-end;
+                  align-self: flex-end;
+                  width:40px;
+                  height: 40px;
+                  cursor: pointer;}
 
 /*////-CAROUSEL-PUBLICIDADE-//////*/
 *{box-sizing: border-box;}
 
  .slideshow-container{width: 90%;
-                     
+                     background-color: red;
                       margin: auto;}
 
  .mySlides {display: none;}
@@ -649,7 +737,7 @@ a{color:#f3f3f3;}
                     border-radius: 8px;
                 }
 
-img{ border: solid 2px #000; }
+
   
 .h3-prod{color: #000;}
 
@@ -696,45 +784,57 @@ button:hover {
                 & img{width: 100%;}}}
 
 /*////FOOTER///////*/
-footer{background-color:  #777272;
-          padding: 25px;}
+footer{background-color:  #deb887;
+          padding: 25px;
+          height: auto;}
 
-a{color:#f3f3f3;
-  }
-
- a:hover{ transform: scaleY(2px);}
+a{color: #000;;}
 
    .gerais {display: flex;
     flex-direction: row;
    justify-content: space-around;
+    position: relative;
     
   }
 
-  .formas-pgto,
-  .contato,
-  .site-seguro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;}
-     
+    .h3-footer{text-align: center;
+               position: absolute;
+               padding-bottom: 260px;
+              margin-left: 550px;}
 
-  .formas-pgto figure img,
-  .contato figure img,
-  .site-seguro figure img {
-    width: 55px;
-    height: 55px;
-    
-  
-  }
+     .formas-pgto{display: flex;
+                   flex-direction: row;
+                    height: auto;
 
-  article {
-    text-align: left;
-  }
-   a{text-decoration: none;}
+
+     >div{display: flex;
+          justify-content: space-around;
+          margin-left: 300px;
+          margin-top: 50px;}
+              
+                  
+                 
+                   }
+
+    .fig-pgto{width: 40px;
+              height: 40px;}
+
+
    
-    .gerais,.formas-pgto,.contato,
-     .site-seguro{background-color: #777272;}
+      
+       .site-seguro{display: flex;
+                   flex-direction: row;
+                    justify-content: center;
+                    height: auto;
+                     position: relative;}
   
+       .fig-site-blindado{width: 40px;
+                           height: 40px;
+                            margin-top: 50px;
+                           }
+  
+         #h3-site-seguro{position: absolute;
+                         margin-left: -60px;}
            
    
     
