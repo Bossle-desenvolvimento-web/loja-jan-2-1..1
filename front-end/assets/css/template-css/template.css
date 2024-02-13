@@ -7,9 +7,9 @@
               height: 50px;
               z-index: 9999;}
 
-@media (max-width: 576px){body{background-color:#fff;}
+@media (max-width: 576px){
 /*//Header e seus componentes//*/
-header{background-color: #deb887;
+header{
        display: flex;
        justify-content: space-between;
        flex-direction: column;
@@ -20,12 +20,12 @@ header{background-color: #deb887;
             flex-direction: row;
              justify-content: space-between;}
              
-.topo-logo img{border-radius: 50%;
-                width: 80px;
-                height: 80px;}
+.topo-logo img{
+                width:90px;
+                height:90px;}
  
 
-.btn-logar{background-color: #10B000;
+.btn-logar{
             width: 85px;
             height:25px;
             font-size: 0.85em; 
@@ -33,15 +33,14 @@ header{background-color: #deb887;
             
             justify-content: center;
             align-items: center;
-            color: #000;
+           
             font-weight: bolder;
            
              }
 
-.btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;
-                 border: solid 2px #000;
-                 color: #000;}
+.btn-logar:hover{cursor: pointer;}
+                 
+                 
 
 
 .site-nome{text-align: center;
@@ -96,12 +95,12 @@ main{margin-top: 15px;
 .carousel-item{width: 100%;
             max-width: 300px;
             margin:15px;
-            background-color: #fff;
+            
            padding: auto;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-              background-color: #BAC3CF;}
+             }
 
 
 .carouselitem  img { width: 100%;
@@ -111,32 +110,26 @@ main{margin-top: 15px;
                   }
 
   
-.h3-carousel-item {color: #0e131a;
-                     
-}
+
 
 .carousel-item p {font-size: 14px;
                 line-height: 1.4;
-                color: #000;
+                
                 
 }
 
 button {
-  background-color: #10B000;
-  color: #fff;
+ 
+  
   padding: 10px 30px;
   border: none;
-  border-radius: 5px;
+  
   cursor: pointer;
   transition: background-color 0.3s;
   margin-bottom: 5px;
 }
 
-button:hover {
-  background-color: #deb887;
-   color: #000;
 
-}
 
 .prod-vendas{
  
@@ -153,8 +146,7 @@ button:hover {
       
                 & img{width: 100%;}}}
 
-  .h3-prod{color: #000;
-            }
+  
 
 
 
@@ -164,7 +156,7 @@ button:hover {
         height: auto;
           margin: auto;
           margin-top: 15px;
-          background-color:#deb887;
+          
           border-radius: 15px;}
         
 
@@ -199,7 +191,7 @@ button:hover {
  
 
              >a{padding: 20px;
-                 color: #000;
+                
                  text-decoration: none;
                   
                 }
@@ -207,8 +199,8 @@ button:hover {
                
                 
             
-        a:hover{color:#f3f3f3;
-                  background-color: #000;
+        a:hover{
+                 
                   max-width: 40%;
                   border-radius: 15px;}
 
@@ -222,7 +214,7 @@ button:hover {
                      margin-bottom: 15px;}
 
      #h4-footer,#p-footer{text-align: center;
-                          color:#000;}
+                         }
 }
 
 }
@@ -234,8 +226,8 @@ button:hover {
 
   /*//Header e seus componentes//*/
 
-    body{background-color:#fff;}
-   header{background-color: #deb887;
+    
+   header{
        display: flex;
        justify-content: space-between;
        flex-direction: column;
@@ -251,22 +243,21 @@ button:hover {
                 height: 80px;}
  
 
-.btn-logar{background-color: #10B000;
+.btn-logar{
             width: 85px;
             height:25px;
             font-size: 0.85em; 
             display: flex;
             justify-content: center;
             align-items: center;
-            color: #000;
+            
             font-weight: bolder;
            
              }
 
 .btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;
-                 border: solid 2px #000;
-                 color: #000;}
+                
+                 }
 
 
 .site-nome{text-align: center;
@@ -279,6 +270,7 @@ button:hover {
                   width:40px;
                   height: 40px;
                   cursor: pointer;}
+
 /*//-CAROUSEL-PUBLICIDADE-/////*/
 *{box-sizing: border-box;}
 
@@ -309,12 +301,12 @@ button:hover {
 .carousel-item{width: 100%;
             max-width: 300px;
             margin: 20px;
-            background-color: #fff;
+           
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-            background-color:#BAC3CF;
+           
             }
 
 
@@ -324,8 +316,7 @@ button:hover {
   border-radius: 8px;
 }
 
-.h3-prod{color: #000;
-            }
+
 
 .h3-carousel-item {
   color: #0e131a;
@@ -334,12 +325,11 @@ button:hover {
 .carousel-item p {
   font-size: 14px;
   line-height: 1.4;
-  color: #000;
+ 
 }
 
 button {
-  background-color:#10B000;
-  color: #fff;
+ 
   padding: 10px 30px;
   border: none;
   border-radius: 4px;
@@ -348,11 +338,7 @@ button {
   margin-bottom: 5px;
 }
 
-button:hover {
-  background-color: #BF9663;
-  color: #000;
 
-}
 
 .prod-vendas{
  
@@ -376,7 +362,7 @@ button:hover {
         height: auto;
           margin: auto;
           margin-top: 15px;
-          background-color:#deb887;
+        
           border-radius: 15px;}
         
 
@@ -411,7 +397,7 @@ button:hover {
  
 
              >a{padding: 20px;
-                 color: #000;
+               
                  text-decoration: none;
                   
                 }
@@ -419,8 +405,7 @@ button:hover {
                
                 
             
-        a:hover{color:#f3f3f3;
-                  background-color: #000;
+        a:hover{
                   max-width: 40%;
                   border-radius: 15px;}
 
@@ -433,8 +418,7 @@ button:hover {
                      margin-top: 120px;
                      margin-bottom: 15px;}
 
-     #h4-footer,#p-footer{text-align: center;
-                          color:#000;}
+     
 }
 
 
@@ -446,53 +430,92 @@ button:hover {
 /*******************************************************************/
 @media (min-width: 769px) and (max-width: 1024px){
 
-body{background-color:#fff;}
+
 
  /*//Header e seus componentes//*/
-  header{background-color: #deb887;
+    header{
        display: flex;
        justify-content: space-between;
-       flex-direction: column;
-       margin-bottom: 15px;}
+       flex-direction: row;
+       margin-bottom: 15px;
+      
+       width: 100%;}
 
-.topo-logo{width: 100%;
+.topo-logo{width:40%;
             display: flex;
             flex-direction: row;
-             justify-content: space-between;}
+             justify-content: space-between;
+             margin-top: -100px;
+             margin-left: -100px;}
              
-.topo-logo img{border-radius: 50%;
-                width: 80px;
-                height: 80px;}
+.topo-logo img{
+                width: 420px;
+                height: 420px;}
  
 
-.btn-logar{background-color: #10B000;
-            width: 85px;
-            height:25px;
-            font-size: 0.85em; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #000;
-            font-weight: bolder;
-           
-             }
-
-.btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;
-                 border: solid 2px #000;
-                 color: #000;}
 
 
-.site-nome{text-align: center;
-            font-variant: small-caps;}
+
+.site-nome{text-align: justify;
+            font-variant: small-caps;
+            font-size: 4rem;
+            margin-top: 70%;
+            margin-left: -250px;}
+
+
+.logar{display: flex;
+       justify-content: flex-end;
+       width: 40px;
+      height: 40px;
+      cursor: pointer;
+      margin-right: 50px;}
+
+.logar {
+    position: relative;
+}
+
+.logar img {
+    width: 30px;
+    height: 30px;
+}
+
+.logar .links-escondidos {
+    position: absolute;
+    top:200%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.logar:hover .links-escondidos {
+    opacity: 1;
+    visibility: visible;
+}
+
+.logar .links-escondidos a {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #000;
+}
+
+.logar .links-escondidos a:hover {
+    background-color: #ccc;
+}
+
 
 
 .carrinho-compras{display:flex;
                   justify-content: flex-end;
-                  align-self: flex-end;
-                  width:40px;
-                  height: 40px;
+                  margin-left: 500px;
+                  width:30px;
+                  height:30px;
                   cursor: pointer;}
+
 
 /*////-CAROUSEL-PUBLICIDADE-//////*/
 *{box-sizing: border-box;}
@@ -514,7 +537,7 @@ body{background-color:#fff;}
 
 .carousel{width: 100%;
           overflow-x: auto;
-          overflow-y: hidden;
+          overflow-y: hidden;}
 
 
     .carousel-items{display:flex;
@@ -526,12 +549,12 @@ body{background-color:#fff;}
 .carousel-item{width: 100%;
             max-width: 300px;
             margin: 20px;
-            background-color: #fff;
+            
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
-             background-color:#BAC3CF;
+            
             }
 
 
@@ -542,20 +565,16 @@ body{background-color:#fff;}
 }
 
 
-.h3-prod{color: #000;}
 
-.h3-carousel-item {color: #0e131a;
-                    background-color: #BAC3CF}
 
 .carousel-item p {
   font-size: 14px;
   line-height: 1.4;
-  color: #000;
+ 
 }
 
 button {
-  background-color: #10B000;
-  color: #fff;
+  
   padding: 10px 30px;
   border: none;
   border-radius: 4px;
@@ -564,10 +583,7 @@ button {
   margin-bottom: 5px;
 }
 
-button:hover {color: #000;
-  background-color: #deb887;;
 
-}
 
 .prod-vendas{
  
@@ -579,7 +595,7 @@ button:hover {color: #000;
             
      .carousel-item{min-width: 320px;
                      max-width: 320px;
-                      background-color: #deb887;
+                     
       
                 & img{width: 100%;
                         border-radius: 5px;}}}
@@ -588,7 +604,7 @@ button:hover {color: #000;
 footer{width: 90%;
         height: auto;
           margin: auto;
-          background-color:#deb887;
+         
           border-radius: 15px;}
         
 
@@ -620,14 +636,12 @@ footer{width: 90%;
              >a{padding: 20px;
                 display:inline-flex;
                 flex-direction: row;
-                 color: #000;
+               
                  text-decoration: none;}
                 
             #primeiro-elemento{margin-left: 420px;}  
 
-        a:hover{color:#f3f3f3;
-                  background-color: #000;}
-
+        
        
 
      }
@@ -637,71 +651,107 @@ footer{width: 90%;
                     }
 
      #h4-footer,#p-footer{text-align: center;
-                          color:#000;}
+                          }
    
-}
+
 
 /********************************************************************/
 
 @media (min-width: 1025px){
 
-   body{background-color:#BAC3CF;}
+  
 
  /*//Header e seus componentes//*/
-   header{background-color: #deb887;
+   header{
        display: flex;
        justify-content: space-between;
-       flex-direction: column;
+       flex-direction: row;
        margin-bottom: 15px;
       
        width: 100%;}
 
-.topo-logo{width: 100%;
+.topo-logo{width:40%;
             display: flex;
             flex-direction: row;
-             justify-content: space-between;}
+             justify-content: space-between;
+             margin-top: -100px;
+             margin-left: -100px;}
              
-.topo-logo img{border-radius: 50%;
-                width: 80px;
-                height: 80px;}
+.topo-logo img{
+                width: 420px;
+                height: 420px;}
  
 
-.btn-logar{background-color: #10B000;
-            width: 85px;
-            height:25px;
-            font-size: 0.85em; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #000;
-            font-weight: bolder;
-           
-             }
-
-.btn-logar:hover{cursor: pointer;
-                 background-color: #BF9663;
-                 border: solid 2px #000;
-                 color: #000;}
 
 
-.site-nome{text-align: center;
+
+.site-nome{text-align: justify;
             font-variant: small-caps;
-            font-size: 4rem;}
+            font-size: 4rem;
+            margin-top: 70%;
+            margin-left: -250px;}
+
+
+.logar{display: flex;
+       justify-content: flex-end;
+       width: 40px;
+      height: 40px;
+      cursor: pointer;
+      margin-right: 50px;}
+
+.logar {
+    position: relative;
+}
+
+.logar img {
+    width: 30px;
+    height: 30px;
+}
+
+.logar .links-escondidos {
+    position: absolute;
+    top:200%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.logar:hover .links-escondidos {
+    opacity: 1;
+    visibility: visible;
+}
+
+.logar .links-escondidos a {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #000;
+}
+
+.logar .links-escondidos a:hover {
+    background-color: #ccc;
+}
+
 
 
 .carrinho-compras{display:flex;
                   justify-content: flex-end;
-                  align-self: flex-end;
-                  width:40px;
-                  height: 40px;
+                  margin-left: 500px;
+                  width:30px;
+                  height:30px;
                   cursor: pointer;}
+
 
 /*////-CAROUSEL-PUBLICIDADE-//////*/
 *{box-sizing: border-box;}
 
  .slideshow-container{width: 90%;
                      height: 25%;
-                     background-color: red;
+                    
                       margin: auto;}
 
  .mySlides {display: none;}
@@ -719,7 +769,7 @@ footer{width: 90%;
 
 
 .carousel{width: 100%;
-          background-color: #BAC3CF;
+         
           overflow-x: auto;
           overflow-y: hidden;
 
@@ -733,13 +783,13 @@ footer{width: 90%;
 .carousel-item{width: 100%;
             max-width: 300px;
             margin: 20px;
-            background-color:#deb887;
+           
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
            
-            border: solid 1px #000;
+        
             
             }
 
@@ -760,26 +810,21 @@ footer{width: 90%;
 .carousel-item p {
   font-size: 14px;
   line-height: 1.4;
-  color: #000;
+ 
 }
 
 button {
-  background-color: #10B000;
-  color: #fff;
+  
   padding: 10px 30px;
   
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
   margin-bottom: 5px;
-  border: solid 1px #000;
+  
 }
 
-button:hover {
-  background-color: #BF9663;
-   color: #000;
 
-}
 
 .prod-vendas{
  
@@ -800,7 +845,7 @@ button:hover {
 footer{width: 90%;
         height: auto;
           margin: auto;
-          background-color:#deb887;
+       
           border-radius: 15px;}
         
 
@@ -832,13 +877,12 @@ footer{width: 90%;
              >a{padding: 20px;
                 display:inline-flex;
                 flex-direction: row;
-                 color: #000;
+               
                  text-decoration: none;}
                 
             #primeiro-elemento{margin-left: 420px;}  
 
-        a:hover{color:#f3f3f3;
-                  background-color: #000;}
+       
 
        
 
@@ -849,7 +893,7 @@ footer{width: 90%;
                     }
 
      #h4-footer,#p-footer{text-align: center;
-                          color:#000;}
+                      }
 
 }        
 
